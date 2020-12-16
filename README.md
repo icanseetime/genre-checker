@@ -2,8 +2,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -132,15 +130,11 @@ Project Link: [https://github.com/imgjeits/genre-checker](https://github.com/img
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/imgjeits/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/imgjeits/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/imgjeits/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/imgjeits/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/imgjeits/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/imgjeits/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/imgjeits/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/imgjeits/repo/issues
-[license-shield]: https://img.shields.io/github/license/imgjeits/repo.svg?style=for-the-badge
-[license-url]: https://github.com/imgjeits/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/imgjeits
+[contributors-shield]: https://img.shields.io/github/contributors/imgjeits/genre-checker.svg?style=for-the-badge
+[contributors-url]: https://github.com/imgjeits/genre-checker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/imgjeits/genre-checker.svg?style=for-the-badge
+[forks-url]: https://github.com/imgjeits/genre-checker/network/members
+[stars-shield]: https://img.shields.io/github/stars/imgjeits/genre-checker.svg?style=for-the-badge
+[stars-url]: https://github.com/imgjeits/genre-checker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/imgjeits/genre-checker.svg?style=for-the-badge
+[issues-url]: https://github.com/imgjeits/genre-checker/issues
