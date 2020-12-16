@@ -1,0 +1,158 @@
+/* General */
+:root {
+    --background-color: rgb(24, 24, 24);
+    --text-color: rgb(224, 224, 224);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+main {
+    width: 80vw;
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+}
+
+/* Results from artist search-box */
+#resultBox {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 10px;
+    column-gap: 15px;
+}
+
+#resultBox a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 5px;
+}
+
+#resultBox a:hover {
+    text-decoration: underline;
+}
+
+#resultBox a h2 {
+    font-size: 1.5em;
+}
+
+#resultBox img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Artist w/ genres-box */
+#artistBox {
+    display: none;
+    /* After display */
+    flex-direction: column;
+    align-items: center;
+}
+
+#artistBox a {
+    color: #b4a0ff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#artistBox a:hover {
+    text-decoration: underline;
+}
+
+#artistBox img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#artistBox ul li {
+    font-size: 1.2em;
+}
+
+/* Form */
+form {
+    width: 100%;
+    display: grid;
+
+}
+
+form input {
+    color: black;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar-track {
+    background-color: var(--background-color);
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: var(--background-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--background-color);
+    background-image: -webkit-linear-gradient(top,
+            #1DB954 0%,
+            #1db95480 50%,
+            #1db95480 51%,
+            #1DB954 100%);
+}
+
+@media screen and (max-width: 1680px) {
+
+    #resultBox {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media screen and (max-width: 1390px) {
+
+    #resultBox {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    #resultBox {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    #resultBox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    #resultBox {
+        grid-template-columns: 1fr;
+    }
+
+    #resultBox img {
+        width: 80vw;
+        height: 80vw;
+        object-fit: cover;
+    }
+}

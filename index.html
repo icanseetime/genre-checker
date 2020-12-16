@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Genre checker</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#735bc1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎶</text></svg>">
+</head>
+
+<body>
+    <header>
+        <h1 onclick="window.location.reload()">🎶 Genre Checker</h1>
+    </header>
+
+    <main>
+        <form>
+            <label for="searchField">Search for an artist</label>
+            <input type="text" id="searchField" name="searchField" class="u-full-width">
+            <button type="submit" class="button-primary">Check genre</button>
+            <p id="numResults"></p>
+        </form>
+
+        <section id="resultBox"></section>
+        <section id="artistBox"></section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
