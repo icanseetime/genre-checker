@@ -79,12 +79,13 @@ function displayGenre(id) {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
-            'Authorization': 'Basic ' + btoa(`${clientID}: ${clientSecret} `)
+            'Authorization': 'Basic ' + btoa(`${clientID}:${clientSecret}`)
         },
         body: 'grant_type=client_credentials'
     })
         .then(response => response.json())
         .then(auth => {
+            console.log(auth)
             // Find artist by ID
             fetch(`https://api.spotify.com/v1/artists/${id}`, {
                 method: 'GET',
@@ -96,6 +97,7 @@ function displayGenre(id) {
             })
                 .then(res => res.json())
                 .then(artist => {
+                    console.log(artist)
                     // Display artist information and genres
                     artistBox.innerHTML = ''
                     document.getElementById('numResults').innerHTML = ''
