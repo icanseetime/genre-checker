@@ -56,7 +56,7 @@
 
 ![Product Name Screen Shot](/images/screenshot.png)
 
-This project was created in a day so I could learn about APIs. You are free to fork and reuse it as you please.
+This project was only created so I could learn about APIs. You are free to fork and reuse it as you please.
 
 ### Built With
 
@@ -126,6 +126,7 @@ Project Link: [https://github.com/imgjeits/genre-checker](https://github.com/img
 -   [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
 -   [Normalize.css](https://necolas.github.io/normalize.css/)
 -   [Skeleton](http://getskeleton.com/)
+-   [othneildrew - Best README Template](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
