@@ -18,7 +18,7 @@
     <a href="https://github.com/imgjeits/genre-checker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/imgjeits/genre-checker">View Demo</a>
+    <a href="https://folk.ntnu.no/imgjeits/projects/genre-checker/">View Demo</a>
     ·
     <a href="https://github.com/imgjeits/genre-checker/issues">Report Bug</a>
     ·
