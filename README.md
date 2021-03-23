@@ -1,7 +1,11 @@
+<div align="center">
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+
+</div>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -11,7 +15,6 @@
   </a>
 
   <h3 align="center">Genre Checker</h3>
-
   <p align="center">
     A website using the Spotify Web API to search for artists and then display their genres.
     <br />
@@ -79,17 +82,20 @@ To get a local copy up and running follow these simple steps.
     ```sh
     git clone https://github.com/imgjeits/genre-checker.git
     ```
+3. Install dev dependencies by running either either `npm install` or `yarn install` in the terminal
 
 ### Setup
 
 1. Go to [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/) and log in with your Spotify account.
-2. Create an app and copy the client ID and client secret for the app.
-3. Change these variables in script.js to your client ID and client secret.
+2. Create an app and note the client ID and client secret for the app
+3. Create a _.env_ file and add
+
     ```
-    const clientID = 'YOUR CLIENT ID HERE'
-    const clientSecret = 'YOUR CLIENT SECRET HERE'
+    CLIENT_ID=<Your Client ID from Spotify>
+    CLIENT_SECRET=<Your Client Secret from Spotify>
     ```
-4. Go nuts.
+
+4. Go nuts
 
 <!-- USAGE EXAMPLES -->
 
@@ -103,7 +109,7 @@ _For more information, please contact me directly._
 
 ## Contributing
 
-You are free to copy and use this as you please. If you find any bugs or issues, I would **really appreciate it** if you either [let me know](https://github.com/imgjeits/genre-checker/issues/new) or you fixed it and created a pull request 😀
+You are free to copy and use this as you please. If you find any bugs or issues, I would really appreciate it if you either [let me know](https://github.com/imgjeits/genre-checker/issues/new) or you fixed it and created a pull request 😀
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)

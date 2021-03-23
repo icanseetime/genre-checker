@@ -1,1 +1,3 @@
-/id-secret.txt
+/node_modules
+/.env
+/yarn.lock

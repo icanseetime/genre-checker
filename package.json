@@ -1,0 +1,12 @@
+{
+  "name": "genre-checker",
+  "version": "1.1.0",
+  "description": "Check genre of artists from Spotify",
+  "main": "index.js",
+  "repository": "https://github.com/imgjeits/genre-checker.git",
+  "author": "Ida <imgjeits@stud.ntnu.no>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config()
+}
+
 const form = document.querySelector('form')
 const input = document.querySelector('input')
 const resultBox = document.getElementById('resultBox')
@@ -16,8 +20,8 @@ form.addEventListener('submit', e => {
 })
 
 // Change these to your own Client ID and Client Secret
-const clientID = ''
-const clientSecret = ''
+const clientID = process.env.CLIENT_ID
+const clientSecret = process.env.CLIENT_SECRET
 
 // Search API
 function search(searchTerm) {
