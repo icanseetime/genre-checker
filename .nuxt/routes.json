@@ -1,0 +1,16 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\bria-\\\\Documents\\\\Kode\\\\genre-checker\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_e21b4a0e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\bria-\\\\Documents\\\\Kode\\\\genre-checker\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_a2ab9484"
+  }
+]

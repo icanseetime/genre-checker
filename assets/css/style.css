@@ -2,6 +2,7 @@
 :root {
     --background-color: rgb(24, 24, 24);
     --text-color: rgb(224, 224, 224);
+    --darker-text: rgb(177, 177, 177);
 }
 
 body {
@@ -105,18 +106,6 @@ p {
 
 #artistBox ul li {
     font-size: 1.2em;
-}
-
-/* Form */
-form {
-    width: 100%;
-    display: -ms-grid;
-    display: grid;
-
-}
-
-form input {
-    color: black;
 }
 
 /* Scrollbar */
