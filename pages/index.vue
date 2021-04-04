@@ -1,18 +1,15 @@
 <template>
-	<div>
-		<AppHeader />
-		<main>
-			<SearchBar />
-		</main>
-	</div>
+	<main>
+		<SearchBar />
+		<Results />
+	</main>
 </template>
 
 <script>
-import AppHeader from '../components/AppHeader.vue'
 import SearchBar from '../components/SearchBar.vue'
 import Results from '../components/Results'
 export default {
-	components: { AppHeader, SearchBar },
+	components: { SearchBar, Results },
 	// SEO
 	head() {
 		return {
