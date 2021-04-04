@@ -19,10 +19,10 @@ export default {
 					hid: 'description',
 					name: 'description',
 					content:
-						'Check the genres of your favorite artists on Spotify',
-				},
-			],
+						'Check the genres of your favorite artists on Spotify'
+				}
+			]
 		}
-	},
+	}
 }
 </script>

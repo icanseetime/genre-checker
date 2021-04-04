@@ -1,14 +1,14 @@
 <template>
-	<a onclick="{{id}}">
+	<nuxt-link :to="`artist/${id}`">
 		<h2>{{ name }}</h2>
-		<img src="{{img || '/assets/images/no-image.png'}}" alt="{{name}}" />
-	</a>
+		<img :src="img" :alt="name" />
+	</nuxt-link>
 </template>
 
 <script>
 export default {
 	name: 'Artist',
-	props: ['name', 'img', 'id'],
+	props: ['name', 'img', 'id']
 }
 </script>
 

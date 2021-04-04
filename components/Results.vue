@@ -1,5 +1,6 @@
 <template>
 	<section id="resultBox">
+		<p></p>
 		<Artist v-for="artist in artists" v-bind:key="artist.id" />
 	</section>
 </template>
@@ -10,18 +11,21 @@ import Artist from './Artist'
 export default {
 	name: 'Results',
 	components: {
-		Artist,
+		Artist
 	},
 	data() {
 		return {
-			artists: [],
+			artists: []
 		}
-	},
+	}
 }
 </script>
 
 <style>
-/* Results from artist search-box */
+p {
+	text-align: center;
+}
+
 #resultBox {
 	display: -ms-grid;
 	display: grid;

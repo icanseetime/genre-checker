@@ -1,14 +1,11 @@
 <template>
 	<div>
-		<AppHeader />
 		<h2>About</h2>
 	</div>
 </template>
 
 <script>
-import AppHeader from '../components/AppHeader.vue'
 export default {
-	components: { AppHeader },
 	// SEO
 	head() {
 		return {
@@ -17,11 +14,10 @@ export default {
 				{
 					hid: 'description',
 					name: 'description',
-					content:
-						'Find out more about the genre checker application',
-				},
-			],
+					content: 'Find out more about the genre checker application'
+				}
+			]
 		}
-	},
+	}
 }
 </script>
