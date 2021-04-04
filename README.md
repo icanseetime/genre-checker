@@ -57,7 +57,7 @@
 
 ## About The Project
 
-![Product Name Screen Shot](/images/screenshot.png)
+![Product Name Screen Shot](/assets/images/screenshot.png)
 
 This project was only created so I could learn about APIs. You are free to fork and reuse it as you please.
 
