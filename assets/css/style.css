@@ -21,7 +21,6 @@ body {
     align-items: center;
 }
 
-header,
 main {
     width: 80vw;
     display: -webkit-box;
@@ -38,74 +37,6 @@ main {
 
 p {
     text-align: center;
-}
-
-/* Results from artist search-box */
-#resultBox {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr 15px 1fr;
-    grid-template-columns: repeat(6, 1fr);
-    row-gap: 10px;
-    -webkit-column-gap: 15px;
-    -moz-column-gap: 15px;
-    column-gap: 15px;
-}
-
-#resultBox a {
-    text-align: center;
-    text-decoration: none;
-    color: var(--text-color);
-    padding: 5px;
-}
-
-#resultBox a:hover {
-    text-decoration: underline;
-}
-
-#resultBox a h2 {
-    font-size: 1.5em;
-}
-
-#resultBox img {
-    width: 200px;
-    height: 200px;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
-/* Artist w/ genres-box */
-#artistBox {
-    display: none;
-    /* After display */
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-#artistBox a {
-    color: #b4a0ff;
-    text-decoration: none;
-    padding: 15px;
-}
-
-#artistBox a:hover {
-    text-decoration: underline;
-}
-
-#artistBox img {
-    width: 200px;
-    height: 200px;
-    -o-object-fit: cover;
-    object-fit: cover;
-}
-
-#artistBox ul li {
-    font-size: 1.2em;
 }
 
 /* Scrollbar */
@@ -127,46 +58,4 @@ body::-webkit-scrollbar-thumb {
             #1db95480 50%,
             #1db95480 51%,
             #1DB954 100%);
-}
-
-@media screen and (max-width: 1680px) {
-
-    #resultBox {
-        grid-template-columns: repeat(5, 1fr);
-    }
-}
-
-@media screen and (max-width: 1390px) {
-
-    #resultBox {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-@media screen and (max-width: 1150px) {
-
-    #resultBox {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media screen and (max-width: 850px) {
-
-    #resultBox {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 550px) {
-
-    #resultBox {
-        grid-template-columns: 1fr;
-    }
-
-    #resultBox img {
-        width: 80vw;
-        height: 80vw;
-        -o-object-fit: cover;
-        object-fit: cover;
-    }
 }

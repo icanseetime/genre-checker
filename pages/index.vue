@@ -1,21 +1,22 @@
 <template>
 	<div>
 		<AppHeader />
-		<!-- <main> -->
-		<SearchBar />
-		<!-- </main> -->
+		<main>
+			<SearchBar />
+		</main>
 	</div>
 </template>
 
 <script>
 import AppHeader from '../components/AppHeader.vue'
 import SearchBar from '../components/SearchBar.vue'
+import Results from '../components/Results'
 export default {
 	components: { AppHeader, SearchBar },
 	// SEO
 	head() {
 		return {
-			title: 'Home || Genre checker ',
+			title: 'Home || Genre checker',
 			meta: [
 				{
 					hid: 'description',
